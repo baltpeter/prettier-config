@@ -1,0 +1,31 @@
+{
+    "name": "@baltpeter/prettier-config",
+    "version": "0.0.0",
+    "description": "The Prettier config Benjamin Altpeter uses in his projects.",
+    "author": "Benjamin Altpeter <hi@bn.al>",
+    "keywords": [
+        "prettier",
+        "prettierconfig"
+    ],
+    "license": "CC0-1.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/baltpeter/prettier-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/baltpeter/prettier-config/issues"
+    },
+    "main": ".prettierrc.json",
+    "files": [
+        ".prettierrc.json"
+    ],
+    "scripts": {
+        "test": "echo 'TODO: No test specified yet.'"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "prettier": "^2.8.1"
+    }
+}
