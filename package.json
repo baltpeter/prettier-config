@@ -1,6 +1,6 @@
 {
     "name": "@baltpeter/prettier-config",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "The Prettier config Benjamin Altpeter uses in his projects.",
     "author": "Benjamin Altpeter <hi@bn.al>",
     "keywords": [
