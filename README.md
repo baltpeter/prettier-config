@@ -6,10 +6,10 @@ This package contains the Prettier config I use for my projects. You probably do
 
 ## Usage
 
-Install Prettier and this config:
+Install this config its peer dependencies:
 
 ```sh
-yarn add --dev prettier @baltpeter/prettier-config
+yarn add --dev @baltpeter/prettier-config prettier typescript
 ```
 
 Then, add the following to your `package.json`:
