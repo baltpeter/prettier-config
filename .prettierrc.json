@@ -6,6 +6,13 @@
     "singleQuote": true,
     "bracketSameLine": true,
 
-    "plugins": ["prettier-plugin-organize-imports"],
-    "organizeImportsSkipDestructiveCodeActions": true
+    "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-jsdoc"],
+
+    "organizeImportsSkipDestructiveCodeActions": true,
+
+    "jsdocDescriptionWithDot": true,
+    "jsdocKeepUnParseAbleExampleIndent": true,
+    "jsdocPreferCodeFences": true,
+    "jsdocSeparateTagGroups": true,
+    "tsdoc": true
 }
