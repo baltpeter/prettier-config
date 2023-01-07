@@ -2,19 +2,19 @@
     "name": "@baltpeter/prettier-config",
     "version": "1.0.0",
     "description": "The Prettier config Benjamin Altpeter uses in his projects.",
-    "author": "Benjamin Altpeter <hi@bn.al>",
     "keywords": [
         "prettier",
         "prettierconfig"
     ],
-    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/baltpeter/prettier-config/issues"
+    },
     "repository": {
         "type": "git",
         "url": "git://github.com/baltpeter/prettier-config.git"
     },
-    "bugs": {
-        "url": "https://github.com/baltpeter/prettier-config/issues"
-    },
+    "license": "CC0-1.0",
+    "author": "Benjamin Altpeter <hi@bn.al>",
     "main": ".prettierrc.json",
     "files": [
         ".prettierrc.json"
@@ -22,15 +22,16 @@
     "scripts": {
         "test": "echo 'TODO: No test specified yet.'"
     },
-    "publishConfig": {
-        "access": "public"
+    "dependencies": {
+        "prettier-plugin-jsdoc": "^0.4.2",
+        "prettier-plugin-organize-imports": "^3.2.1",
+        "prettier-plugin-packagejson": "^2.3.0"
     },
     "peerDependencies": {
         "prettier": "^2.8.1",
         "typescript": "^4.9.4"
     },
-    "dependencies": {
-        "prettier-plugin-jsdoc": "^0.4.2",
-        "prettier-plugin-organize-imports": "^3.2.1"
+    "publishConfig": {
+        "access": "public"
     }
 }

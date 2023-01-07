@@ -6,7 +6,7 @@
     "singleQuote": true,
     "bracketSameLine": true,
 
-    "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-jsdoc"],
+    "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-jsdoc", "prettier-plugin-packagejson"],
 
     "organizeImportsSkipDestructiveCodeActions": true,
 
